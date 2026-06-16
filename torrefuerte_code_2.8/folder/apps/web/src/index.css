@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors */
+    /* Primary: #F47920 (Orange) */
+    --primary: 25 90% 54%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Secondary: #3D3D3D (Charcoal) */
+    --secondary: 0 0% 24%;
+    --secondary-foreground: 0 0% 100%;
+    
+    /* Background: #F5F5F5 (Light Gray) */
+    --background: 0 0% 96%;
+    /* Foreground: #3D3D3D (Charcoal) */
+    --foreground: 0 0% 24%;
+    
+    /* Dark Background: #2A2A2A */
+    --dark-bg: 0 0% 16%;
+    
+    /* Semantic Colors */
+    --accent: 28 100% 51%;
+    --accent-foreground: 0 0% 100%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 24%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 24%;
+    
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 85%;
+    --input: 0 0% 100%;
+    --ring: 25 90% 54%;
+    
+    --radius: 0.5rem;
+  }
+  
+  .dark {
+    --background: 0 0% 16%;
+    --foreground: 0 0% 96%;
+    
+    --primary: 25 90% 54%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 0 0% 24%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --accent: 28 100% 51%;
+    --accent-foreground: 0 0% 100%;
+    
+    --card: 0 0% 20%;
+    --card-foreground: 0 0% 96%;
+    
+    --popover: 0 0% 20%;
+    --popover-foreground: 0 0% 96%;
+    
+    --muted: 0 0% 24%;
+    --muted-foreground: 0 0% 65%;
+    
+    --border: 0 0% 24%;
+    --input: 0 0% 20%;
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-wrap: balance;
+  }
+  
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1];
+    letter-spacing: -0.02em;
+  }
+  
+  h2 {
+    @apply text-4xl md:text-5xl font-bold leading-tight;
+    letter-spacing: -0.01em;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl font-semibold leading-snug;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-20 md:py-24;
+  }
+  
+  .badge-orange {
+    @apply inline-block px-3 py-1 bg-primary/10 text-primary font-semibold text-sm tracking-wider uppercase rounded-full mb-4;
+  }
+}
