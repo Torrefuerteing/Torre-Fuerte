@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Routes, BrowserRouter as Router, Navigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from './components/ScrollToTop';
@@ -14,8 +14,25 @@ import IndustrialPolishedConcretePage from '@/pages/IndustrialPolishedConcretePa
 import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage.jsx';
 import TermsAndConditionsPage from '@/pages/TermsAndConditionsPage.jsx';
 import { Toaster } from '@/components/ui/sonner';
+import { trackEvent } from '@/lib/analytics';
 
 function App() {
+  // Eventos de conversión: clic en WhatsApp y en teléfono (cubre todos los enlaces)
+  useEffect(() => {
+    const onClick = (e) => {
+      const a = e.target.closest && e.target.closest('a');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+      if (href.includes('wa.me') || href.includes('whatsapp')) {
+        trackEvent('whatsapp_click', { transport_type: 'beacon' });
+      } else if (href.startsWith('tel:')) {
+        trackEvent('call_click', { transport_type: 'beacon' });
+      }
+    };
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, []);
+
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",

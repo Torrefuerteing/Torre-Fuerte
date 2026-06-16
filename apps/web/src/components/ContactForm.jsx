@@ -6,6 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { toast } from 'sonner';
+import { trackEvent } from '@/lib/analytics';
 import { Send } from 'lucide-react';
 
 function ContactForm() {
@@ -31,6 +32,7 @@ function ContactForm() {
         body: formData,
       });
 
+      trackEvent('generate_lead', { method: 'form_contacto' });
       toast.success("Solicitud enviada correctamente", {
         description: "Nos pondremos en contacto contigo en menos de 24 horas.",
       });
