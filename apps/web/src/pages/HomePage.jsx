@@ -45,7 +45,7 @@ function HomePage() {
   return <>
       <Helmet>
         <title>Pisos de Concreto en Nogales | Torre Fuerte</title>
-        <meta name="description" content="Especialistas en pisos de concreto comerciales e industriales en Nogales, Sonora. Pulido, restauración, recubrimiento epóxico y mantenimiento. 15+ años de experiencia. Cotización gratuita: 631 299 4645." />
+        <meta name="description" content="Especialistas en pisos de concreto comerciales e industriales en Nogales, Sonora. Pulido, restauración, recubrimiento epóxico y mantenimiento. 15+ años de experiencia. Cotización gratuita: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/inicio" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -59,7 +59,7 @@ function HomePage() {
             "addressRegion": "Sonora",
             "addressCountry": "MX"
           },
-          "telephone": "+526312994645",
+          "telephone": "+526313782710",
           "areaServed": "Heroica Nogales",
           "url": "https://torrefuerteing.com"
         })}
@@ -425,10 +425,10 @@ function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 font-bold text-base h-14 px-8">
-                  <a href="tel:+526312994645">Llamar: 631 299 4645</a>
+                  <a href="tel:+526313782710">Llamar: 631 378 2710</a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 font-bold text-base h-14 px-8">
-                  <a href="https://wa.me/526312994645" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/526313782710" target="_blank" rel="noopener noreferrer">
                     Escribir por WhatsApp <ArrowRight className="w-4 h-4 ml-2" />
                   </a>
                 </Button>

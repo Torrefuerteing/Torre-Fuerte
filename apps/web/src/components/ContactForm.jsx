@@ -76,7 +76,7 @@ function ContactForm() {
           <Input
             id="telefono"
             type="tel"
-            placeholder="631 299 4645"
+            placeholder="631 378 2710"
             className="text-foreground"
             {...register('telefono', { required: 'El teléfono es requerido' })}
           />

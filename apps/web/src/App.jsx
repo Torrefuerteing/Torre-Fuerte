@@ -44,7 +44,7 @@ function App() {
       "addressRegion": "Sonora",
       "addressCountry": "MX"
     },
-    "telephone": "+526312994645",
+    "telephone": "+526313782710",
     "url": "https://torrefuerteing.com"
   };
 

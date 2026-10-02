@@ -103,11 +103,11 @@ function Footer() {
             <ul className="space-y-3">
               <li>
                 <a 
-                  href="tel:6312994645"
+                  href="tel:6313782710"
                   className="flex items-center gap-2 text-white hover:text-accent font-semibold transition-colors duration-200"
                 >
                   <Phone className="w-4 h-4" />
-                  631 299 4645
+                  631 378 2710
                 </a>
               </li>
               <li>

@@ -244,7 +244,7 @@ function ServicesPage() {
                 Contáctanos para una evaluación gratuita. Analizaremos tu piso y te recomendaremos la mejor solución.
               </p>
               <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 font-bold text-base h-14 px-8">
-                <a href="https://wa.me/526312994645" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/526313782710" target="_blank" rel="noopener noreferrer">
                   Hablar con un Especialista <ArrowRight className="w-4 h-4 ml-2" />
                 </a>
               </Button>

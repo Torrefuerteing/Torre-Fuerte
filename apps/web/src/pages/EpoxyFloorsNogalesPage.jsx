@@ -47,7 +47,7 @@ function EpoxyFloorsNogalesPage() {
     <>
       <Helmet>
         <title>Pisos Epóxicos en Nogales | Torre Fuerte</title>
-        <meta name="description" content="Instalación y aplicación de pisos epóxicos en Nogales, Sonora. Recubrimientos industriales y comerciales de alta resistencia. Cotización gratuita: 631 299 4645." />
+        <meta name="description" content="Instalación y aplicación de pisos epóxicos en Nogales, Sonora. Recubrimientos industriales y comerciales de alta resistencia. Cotización gratuita: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/pisos-epoxicos-en-nogales" />
       </Helmet>
 

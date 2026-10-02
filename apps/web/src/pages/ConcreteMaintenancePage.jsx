@@ -60,7 +60,7 @@ function ConcreteMaintenancePage() {
     <>
       <Helmet>
         <title>Mantenimiento de Pisos de Concreto en Nogales | Torre Fuerte</title>
-        <meta name="description" content="Programa de mantenimiento especializado para pisos de concreto en Nogales, Sonora. Lavado profundo, sellado y densificación. Cotización: 631 299 4645." />
+        <meta name="description" content="Programa de mantenimiento especializado para pisos de concreto en Nogales, Sonora. Lavado profundo, sellado y densificación. Cotización: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/mantenimiento-de-pisos-de-concreto" />
       </Helmet>
 

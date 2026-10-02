@@ -56,7 +56,7 @@ function IndustrialRestorationPage() {
     <>
       <Helmet>
         <title>Restauración de Pisos Industriales | Torre Fuerte Nogales</title>
-        <meta name="description" content="Restauración profesional de pisos industriales y comerciales en Nogales, Sonora. Reparación de grietas, desgaste y daño estructural. Cotización gratuita: 631 299 4645." />
+        <meta name="description" content="Restauración profesional de pisos industriales y comerciales en Nogales, Sonora. Reparación de grietas, desgaste y daño estructural. Cotización gratuita: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/restauracion-de-pisos-industriales" />
       </Helmet>
 

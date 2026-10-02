@@ -58,7 +58,7 @@ function IndustrialPolishedConcretePage() {
     <>
       <Helmet>
         <title>Concreto Pulido Industrial en Nogales | Torre Fuerte</title>
-        <meta name="description" content="Sistema de concreto pulido industrial para almacenes, bodegas y plantas en Nogales, Sonora. Alta resistencia y acabado profesional. Llama: 631 299 4645." />
+        <meta name="description" content="Sistema de concreto pulido industrial para almacenes, bodegas y plantas en Nogales, Sonora. Alta resistencia y acabado profesional. Llama: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/concreto-pulido-industrial" />
       </Helmet>
 

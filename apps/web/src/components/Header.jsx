@@ -80,11 +80,11 @@ function Header() {
 
           <div className="hidden lg:flex items-center gap-6">
             <a 
-              href="tel:6312994645" 
+              href="tel:6313782710" 
               className="flex items-center gap-2 text-white hover:text-accent font-semibold transition-colors"
             >
               <Phone className="w-4 h-4" />
-              631 299 4645
+              631 378 2710
             </a>
             <Button 
               asChild 
@@ -121,11 +121,11 @@ function Header() {
                 <div className="h-px bg-white/20 my-2" />
                 
                 <a 
-                  href="tel:6312994645" 
+                  href="tel:6313782710" 
                   className="flex items-center gap-3 text-xl text-white hover:text-accent font-semibold transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  631 299 4645
+                  631 378 2710
                 </a>
 
                 <Button 

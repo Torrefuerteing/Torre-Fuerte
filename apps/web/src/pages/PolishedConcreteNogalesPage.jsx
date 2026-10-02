@@ -56,7 +56,7 @@ function PolishedConcreteNogalesPage() {
     <>
       <Helmet>
         <title>Pulido de Concreto en Nogales | Torre Fuerte</title>
-        <meta name="description" content="Servicio profesional de pulido de concreto en Nogales, Sonora. Sistema mecánico diamantado con acabados Mate, Satinado, Brillante o Espejo. Cotización gratuita: 631 299 4645." />
+        <meta name="description" content="Servicio profesional de pulido de concreto en Nogales, Sonora. Sistema mecánico diamantado con acabados Mate, Satinado, Brillante o Espejo. Cotización gratuita: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/pulido-de-concreto-en-nogales" />
       </Helmet>
 

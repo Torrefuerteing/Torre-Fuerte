@@ -104,7 +104,7 @@ const onSubmit = async (data) => {
     <>
       <Helmet>
         <title>Contacto | Pisos de Concreto en Nogales — Torre Fuerte</title>
-        <meta name="description" content="Solicita tu cotización gratuita para pisos de concreto en Nogales, Sonora. Especialistas en pisos comerciales e industriales. WhatsApp: 631 299 4645." />
+        <meta name="description" content="Solicita tu cotización gratuita para pisos de concreto en Nogales, Sonora. Especialistas en pisos comerciales e industriales. WhatsApp: 631 378 2710." />
         <link rel="canonical" href="https://torrefuerteing.com/contacto" />
       </Helmet>
 
@@ -302,8 +302,8 @@ const onSubmit = async (data) => {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground font-medium mb-1">Llámanos</p>
-                        <a href="tel:+526312994645" className="text-3xl font-bold text-primary hover:underline font-['Barlow_Condensed'] tracking-wide">
-                          631 299 4645
+                        <a href="tel:+526313782710" className="text-3xl font-bold text-primary hover:underline font-['Barlow_Condensed'] tracking-wide">
+                          631 378 2710
                         </a>
                       </div>
                     </div>
@@ -316,7 +316,7 @@ const onSubmit = async (data) => {
                       </div>
                       <div>
                         <p className="text-sm text-muted-foreground font-medium mb-1">WhatsApp</p>
-                        <a href="https://wa.me/526312994645" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-foreground hover:text-primary transition-colors">
+                        <a href="https://wa.me/526313782710" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-foreground hover:text-primary transition-colors">
                           Enviar mensaje directo
                         </a>
                       </div>
